@@ -1,0 +1,37 @@
+Hey Buddy
+You have to Create a Portfolio.
+
+A portfolio which will be at least 7 to 8 pages. ( Stretching it Because there is not that much information)
+
+Idea of Portfolio - Create a Simple, Basic but with Effects and Features
+Color theme - Use, Black, Sky Blue, White for BG , and light sky blue for buttons and links, And Bother color if suitable 
+
+Information about Me - Name-Kartik devvrat 
+                       Adress-dildar nagar 
+                       Academic-commerce 
+                       Hobbies- listening music, gaming  
+                       Interest- exploring new things 
+                       Short term goals - get good Mark's in 11 and 12
+                       Long term goals- become incometax officer
+
+Here's I added some images in the assests subfolder 
+Image 1.jpeg - I have participated in Logiql quiz and got 136 position, when i was is class 9th
+Image 2.jpeg - I have participated in Annual Function of of school (Theme of Annual function - LAKSHYA)
+Image ME.jpeg - This is my image not any event, It will be my Display Picture.
+
+
+So add these are infos.
+
+Use Different type of Animation, Effects, and Transation, also using glowing Buttons, Text and Fonts ( Understand ABle Fonts)
+
+The Pages- 
+ 
+1. Home
+2. About.
+3. Achivment
+4. SKills
+5. Intrest & and Hobbies
+6. goals
+7. Contact me. ( Here Instagram Profile Link - https://www.instagram.com/d.v.r.t?igsh=MTZxYTF0cWd0bTN0YQ==&igsi=MTZxYTF0cWd0bTN0YQ==)
+
+Ok This is The End, Now First Discuss with me all, Then i will say, do or not              
