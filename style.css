@@ -683,7 +683,11 @@ img {
     position: relative;
     border-radius: 16px;
     overflow: hidden;
-    aspect-ratio: 4/3;
+    aspect-ratio: 16/11;
+    background: rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .achievement-image {
@@ -696,7 +700,11 @@ img {
 }
 
 .achievement-image.rotated {
-    transform: rotate(-90deg) scale(1.35);
+    width: 130%;
+    height: 130%;
+    max-width: none;
+    object-fit: contain;
+    transform: rotate(-90deg) scale(0.95);
     transform-origin: center center;
 }
 
@@ -705,7 +713,7 @@ img {
 }
 
 .achievement-card:hover .achievement-image.rotated {
-    transform: rotate(-90deg) scale(1.4);
+    transform: rotate(-90deg) scale(1.02);
 }
 
 .achievement-badge {
@@ -721,6 +729,7 @@ img {
     justify-content: center;
     color: var(--bg-primary);
     box-shadow: 0 4px 16px var(--accent-glow);
+    z-index: 2;
 }
 
 .achievement-year {
@@ -1877,28 +1886,30 @@ img {
     }
 
     .about-info-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     .about-stats {
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .skills-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .interests-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .interests-grid .interest-card:last-child {
-        grid-column: span 1;
-        max-width: 100%;
+        grid-column: span 2;
+        max-width: 400px;
+        margin: 0 auto;
     }
 
     .achievement-image-wrapper {
-        aspect-ratio: 3/2;
+        aspect-ratio: 16/11;
     }
 
     .goal-item .goal-card {
@@ -1990,6 +2001,14 @@ img {
         font-size: 0.95rem;
     }
 
+    .about-info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-stats {
+        flex-direction: column;
+    }
+
     .info-card {
         padding: 14px 16px;
     }
@@ -2024,6 +2043,10 @@ img {
         font-size: 0.88rem;
     }
 
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
     .skill-card {
         padding: 24px 20px;
     }
@@ -2039,6 +2062,15 @@ img {
 
     .skill-desc {
         font-size: 0.82rem;
+    }
+
+    .interests-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .interests-grid .interest-card:last-child {
+        grid-column: span 1;
+        max-width: 100%;
     }
 
     .interest-card {
@@ -2181,4 +2213,3 @@ img {
         display: none;
     }
 }
-
